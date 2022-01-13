@@ -1,0 +1,12 @@
+[package]
+name = "ckb-metrics"
+version = "0.102.0-pre"
+license = "MIT"
+authors = ["Nervos <dev@nervos.org>"]
+edition = "2021"
+description = "A lightweight metrics facade used in CKB."
+homepage = "https://github.com/nervosnetwork/ckb"
+repository = "https://github.com/nervosnetwork/ckb"
+
+[dependencies]
+opentelemetry = { version = "0.15", default-features=false, features = ["metrics"] }
